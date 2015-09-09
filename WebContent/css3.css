@@ -1,0 +1,124 @@
+      body {
+		padding-top: 40px;
+		padding-bottom:0;
+
+	}
+	.custom{
+	color:white;
+	}
+	 #map {
+		width:100%;
+		height:250px;
+		display:block;
+	 }
+	body::before{
+		background: linear-gradient(
+			  rgba(0, 0, 0, 0.5), 
+			  rgba(0, 0, 0, 0.5)
+			), url(hotel2.jpg) no-repeat center center fixed; 
+		 position: relative;
+		  content: '';
+		  z-index: -1;
+		  width: 100%;
+		  height: 100%;
+		  position:absolute; 
+		 -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  -webkit-filter: blur(5px);
+		  -moz-filter: blur(5px);
+		  -o-filter: blur(5px);
+		  -ms-filter: blur(5px);
+		  filter: blur(5px);
+      }
+		.wrapper{
+		max-width:1210px;
+		display:block;
+		margin-right:auto;
+		margin-left:auto;
+		background:#fff;
+	}
+	
+	.container{
+		padding:0px 20px;
+	}
+	
+	.navbar {
+		margin-bottom: 0px;
+		border-radius:0px;
+	}
+
+	
+	
+	
+	
+	header .jumbotron{
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		border-right:0px;
+		border-left:0px;
+		background-color:#358cce;
+		color:#fff;
+	}
+	
+	.sub{
+		padding:30px 0px 30px;
+	}
+	
+	.totop{
+		margin-top:0px;
+	}
+	
+	
+	
+	h1 {
+		font-size: 32.5px;
+	}
+	.attention h2, .attention h3{
+		font-size:30px;
+	}
+	
+	p{
+		text-align:justify;
+	}
+	
+	.thumbnail{
+		margin-bottom:30px;
+	}
+	
+	.thumbnail img{
+		min-width:100%;
+	}
+	footer{
+		padding-top:40px;
+		margin-top:40px;
+		border-top:1px solid #dedede;
+		background:#282828;
+		color:#fff;
+	}
+	footer a{
+		color:#fff;
+	}
+	.related-projects{
+		padding-top:20px;
+		margin-top:20px;
+		
+	}
+	
+	@media (max-width: 979px){
+		.navbar .btn-navbar {
+			margin-top:20px;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.container {
+			padding-right:20px;
+			padding-left:20px;
+		}
+	}
